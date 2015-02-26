@@ -9,11 +9,11 @@ Here. Let me show you an example:
 
 <!--code lang=javascript linenums=true-->
 
-var total = 0;
-var numbers = [1, 5, 7, 3, 8, 9];
-for ( var i = 0; i < numbers.length; i++ ){
-    total += numbers[i];
-}
+    var total = 0;
+    var numbers = [1, 5, 7, 3, 8, 9];
+    for ( var i = 0; i < numbers.length; i++ ){
+        total += numbers[i];
+    }
 
 That's it. You just **reduced the "numbers" collection into the "total" variable**. 
 
@@ -23,11 +23,11 @@ Let me show you another example:
 
 <!--code lang=javascript linenums=true-->
 
-var message = "";
-var words = ["reducing", "is", "simple"];
-for ( var i = 0; i < words.length; i++ ){
-    message += words[i];
-}
+    var message = "";
+    var words = ["reducing", "is", "simple"];
+    for ( var i = 0; i < words.length; i++ ){
+      message += words[i];
+    }
 
 You just **reduced the "words" collection into the "message" variable**.
 
