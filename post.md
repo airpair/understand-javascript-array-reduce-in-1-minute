@@ -1,5 +1,3 @@
-##1  How-to
-
 Everybody knows what **looping** over a collection is. But do you know what **reducing** a collection means?
 
 No? Are you sure?
@@ -45,12 +43,14 @@ Whoa! So the Array object already knows how to reduce?
 
 Indeed!
 
-Every time you find yourself going from a list of values to one value ( reducing ) ask yourself if you could rewrite it using `Array.reduce()`. You can reduce with any sort of operation that combines two values. Not just addition. And not just arithmetic operations.
+Every time you find yourself going from a list of values to one value ( reducing ) ask yourself if you could rewrite it using the built-in [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) function. You can reduce with any sort of operation that combines two values. Not just addition. And not just arithmetic operations.
 
 So you know what Array reduce means. Isn't that awesome? It only took you one minute.
 
 You can now head on to the [Mozilla Docs for Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) for a more in depth overview.
 
-##2  Bonus
+## Bonus
 
-When you hear people talking about "Map Reduce" they are just talking about a "pattern": Mapping over a collection and then reducing it. Yeah. Really. Now you know.
+When you hear people talking about "Map Reduce" they are just talking about a "pattern": Mapping over a collection and then reducing it.
+
+Yeah. Really. Now you know.
