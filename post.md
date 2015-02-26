@@ -49,6 +49,8 @@ Every time you find yourself going from a list of values to one value ( reducing
 
 So you know what Array reduce means. Isn't that awesome? It only took you one minute.
 
+You can now head on to the [Mozilla Docs for Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) for a more in depth overview.
+
 ##2  Bonus
 
 When you hear people talking about "Map Reduce" they are just talking about a "pattern": Mapping over a collection and then reducing it. Yeah. Really. Now you know.
