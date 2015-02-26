@@ -43,7 +43,7 @@ Whoa! So the Array object already knows how to reduce?
 
 Indeed!
 
-Every time you find yourself going from a list of values to one value ( reducing ) ask yourself if you could rewrite it using the built-in [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) function. You can reduce with any sort of operation that combines two values. Not just addition. And not just arithmetic operations.
+Every time you find yourself going from a list of values to one value ( reducing ) ask yourself if you could leverage the built-in [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) function. You can reduce with any sort of operation that combines two values. Not just addition. And not just arithmetic operations.
 
 So you know what Array reduce means. Isn't that awesome? It only took you one minute.
 
