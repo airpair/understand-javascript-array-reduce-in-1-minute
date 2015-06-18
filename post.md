@@ -1,3 +1,5 @@
+## JavaScript Reducing vs Looping
+
 Everybody knows what **looping** over a collection is. But do you know what **reducing** a collection means?
 
 No? Are you sure?
@@ -17,6 +19,8 @@ That's it. You just **reduced the "numbers" collection into the "total" variable
 
 Pretty simple huh?
 
+## JavaScript Reduce Example
+
 Let me show you another example:
 
 <!--code lang=javascript linenums=true-->
@@ -33,11 +37,15 @@ You see the pattern right?
 
 You start with a **collection** ( words ) and a **variable** ( message ) with an **initial value** ( the empty string in this case ). You then iterate over the collection and append ( or add ) the values to the variable.
 
+## JavaScript Array.prototype.reduce
+
 So what's the big deal, you ask? Well. Check this out:
 
 <!--code lang=javascript linenums=true-->
 
-	var sum = [1, 2, 3].reduce( function(total, num){ return total + num }, 0);
+	var sum = [1, 2, 3].reduce(
+	  function(total, num){ return total + num }
+	  , 0);
 
 Whoa! So the Array object already knows how to reduce? 
 
@@ -49,7 +57,7 @@ So you know what Array reduce means. Isn't that awesome? It only took you one mi
 
 You can now head on to the [Mozilla Docs for Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) for a more in depth overview.
 
-## Bonus
+## Map Reduce
 
 When you hear people talking about "Map Reduce" they are just talking about a "pattern": Mapping over a collection and then reducing it.
 
